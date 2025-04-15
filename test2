@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucie - Correction de Textes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #d62b7f, #f26a2e);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
+    p {
+      max-width: 600px;
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #ffdd57;
+    }
+    button {
+      margin-top: 1.5rem;
+      padding: 1rem 2rem;
+      background-color: #1c1c1c;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .contact {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lucie</h1>
+  <h2>Salut! 👋</h2>
+  <h2>Je propose un service de correction de textes rapide et sérieux.</h2>
+  <p><span class="highlight">Orthographe</span>, grammaire, conjugaison</p>
+  <p>
+    Je corrige vos fautes avec soin. Que ce soit pour un devoir, un CV ou un mail important – je suis là pour vous aider.
+  </p>
+  <p class="highlight">Prix: à partir de 5 €</p>
+  <button>Envoyer mon texte à corriger</button>
+  <p class="contact">Contact: your-email@example.com</p>
+</body>
+</html>
+<script>
+  if (location.protocol !== 'https:') {
+    location.replace(https:${location.href.substring(location.protocol.length)});
+  }
+</script>
